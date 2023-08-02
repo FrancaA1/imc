@@ -13,7 +13,7 @@ function calcular (event){
 
     let imcCalculado = calcularImc(usuario.altura, usuario.peso);
 
-    let classificacaoImc = classificarImc(imcCalculado)
+    let classificacaoImc = classificarImc(imcCalculado) 
 
     console.log(classificacaoImc)
 
